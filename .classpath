@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/ApacheJMeter_core.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/ApacheJMeter_java.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/apache-logging-log4j.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/cssparser-0.9.14.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/ExcelReportGenerator-4.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/extentreports-java-2.40.2.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/guice-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/htmlunit-2.15.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/htmlunit-core-js-2.15.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/httpclient-4.3.6.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/httpcore-4.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/httpmime-4.3.6.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/ini4j-0.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/jetty-websocket-8.1.8.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/jna-platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/jorphan-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/jxl.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/logkit-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/nekohtml-1.9.21.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/operadriver-1.5.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/org.apache.httpclient-sources.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/org.testng.eclipse_6.8.6.20141201_2240.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/org.testng.feature_5.9.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/poi-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/poi-examples-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/poi-excelant-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/poi-ooxml-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/poi-ooxml-schemas-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/poi-scratchpad-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/selenium-java-2.45.0.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/selenium-java-2.45.0-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/selenium-java-client-driver.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/selenium-server-standalone-2.44.0.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/selenium-server-standalone-2.45.0.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/selenium-server-standalone-2.46.0.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/serialization-java-1.2.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/adt-bundle-windows-x86_64-20140702/MSBWorkSpace (1)/MSBWorkSpace/Selenium/jar/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

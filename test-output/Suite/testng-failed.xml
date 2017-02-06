@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.msb.login.CSR">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.msb.login.CSR -->
+      <class name="com.msb.utilities.HomeRedirect">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.msb.utilities.HomeRedirect -->
+      <class name="com.msb.utilities.AccountUpload">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.utilities.AccountUpload -->
+      <class name="com.msb.account.AssignAccount">
+        <methods>
+          <include name="setUp"/>
+          <include name="testAssignAccount"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.account.AssignAccount -->
+      <class name="com.msb.login.SiteAdmin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.msb.login.SiteAdmin -->
+      <class name="com.msb.login.ProjectManager">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.msb.login.ProjectManager -->
+      <class name="com.msb.account.AddAccount">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.account.AddAccount -->
+      <class name="com.msb.login.CustomerTeamLead">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.msb.login.CustomerTeamLead -->
+      <class name="com.msb.login.VendorEmployee">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.login.VendorEmployee -->
+      <class name="com.msb.utilities.ActionAuthorization">
+        <methods>
+          <include name="setUp"/>
+          <include name="testActionAuthorization"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.utilities.ActionAuthorization -->
+      <class name="com.msb.utilities.ResetUserPassword">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.utilities.ResetUserPassword -->
+      <class name="com.msb.login.CustomerAdmin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.msb.login.CustomerAdmin -->
+      <class name="com.msb.login.Manager">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.login.Manager -->
+      <class name="com.msb.dashboard.RequirementDashboard">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.msb.dashboard.RequirementDashboard -->
+      <class name="com.msb.utilities.ChangeMyPassword">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.utilities.ChangeMyPassword -->
+      <class name="com.msb.utilities.ContactUpload">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.utilities.ContactUpload -->
+      <class name="com.msb.account.LoggerSearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.account.LoggerSearch -->
+      <class name="com.msb.login.VendorTeamLead">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.login.VendorTeamLead -->
+      <class name="com.msb.login.CustomerEmployee">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.login.CustomerEmployee -->
+      <class name="com.msb.account.CSRSearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.account.CSRSearch -->
+      <class name="com.msb.account.AccountSearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.account.AccountSearch -->
+      <class name="com.msb.login.VendorAdmin">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.msb.login.VendorAdmin -->
+      <class name="com.msb.login.Director">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.msb.login.Director -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

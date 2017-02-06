@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MSS" name="com.msb.login.CustomerAdmin" skipped="0" tests="1" time="39.663" timestamp="2016-07-07T18:16:06">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="MSS" />
+    <property name="env.ORACLE_HOME" value="C:\app\Administrator\product\11.2.0\client_1" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="env.JUNIT_HOME" value="C:\JUNIT" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes" />
+    <property name="env.COMPUTERNAME" value="MSS" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="env.MQ_JAVA_INSTALL_PATH" value="C:\IBM\WebSphere MQ\Java" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\apache-ant-1.9.6" />
+    <property name="java.runtime.version" value="1.8.0_65-b17" />
+    <property name="env.lib" value="C:\IBM\WebSphere MQ\tools\lib64;C:\IBM\SQLLIB\LIB" />
+    <property name="env.MQ_JAVA_LIB_PATH" value="C:\IBM\WebSphere MQ\Java\lib64;C:\IBM\WebSphere MQ\Java\lib" />
+    <property name="ant.file.MSB" value="D:\eclipse_juno\MSBWorkSpace\build.xml" />
+    <property name="env.HOMEPATH" value="\Users\miracle" />
+    <property name="user.name" value="miracle" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="MSB" />
+    <property name="java.version" value="1.8.0_65" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\miracle\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.classpath" value="C:\IBM\WebSphere MQ\Java\lib\com.ibm.mqjms.jar;C:\IBM\WebSphere MQ\Java\lib\com.ibm.mq.jar;C:\Program Files\Java\jre7;.;C:\IBM\SQLLIB\java\db2java.zip;C:\IBM\SQLLIB\java\db2jcc.jar;C:\IBM\SQLLIB\java\sqlj.zip;C:\IBM\SQLLIB\java\db2jcc_license_cu.jar;C:\IBM\SQLLIB\bin;C:\IBM\SQLLIB\java\common.jar" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed" />
+    <property name="env.MQ_FILE_PATH" value="C:\IBM\WebSphere MQ" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_65\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.GIT_LFS_PATH" value="C:\Program Files\Git LFS" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../../../Selenium/eclipse" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="env.DB2INSTANCE" value="DB2" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\;C:\Program Files\VisualSVN Server\PowerShellModules" />
+    <property name="env.ANDROID_HOME" value="D:\adt-bundle-windows-x86_64-20140702\sdk" />
+    <property name="env.MQFT_JAVA_LIB_PATH" value="C:\IBM\WebSphere MQ\java\jre\lib" />
+    <property name="env.APPDATA" value="C:\Users\miracle\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="D:\eclipse_juno\MSBWorkSpace\build.xml" />
+    <property name="os.version" value="6.3" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="yes" />
+    <property name="env.=::" value="::\" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.65-b01" />
+    <property name="env.APR_ICONV1_PATH" value="C:\Program Files (x86)\WANdisco\Subversion\Apache2\bin\iconv" />
+    <property name="env.USERPROFILE" value="C:\Users\miracle" />
+    <property name="user.variant" value="" />
+    <property name="ant.file.type.MSB" value="file" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.9.6\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_65" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\miracle\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="env.MQ_JRE_PATH" value="C:\IBM\WebSphere MQ\java\jre" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="env.MQ_JAVA_DATA_PATH" value="C:\IBM\WebSphere MQ" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\miracle" />
+    <property name="target" value="1.7" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.TNS_ADMIN" value="C:\app\Administrator\product\11.2.0\client_1\network\admin" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.M2_HOME" value="C:\apache-maven-3.3.3" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\WANdisco\Subversion;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-ant-1.9.6\bin;C:\Windows\System32;C:\Program Files (x86)\CloudFoundry;C:\Program Files\nodejs\;C:\Program Files\OpenVPN\bin;C:\Program Files\Git LFS;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.1.0\bin;C:\Ruby21\bin;C:\Ruby193\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\;C:\ant\bin;C:\Program Files (x86)\PuTTY;C:\Users\miracle\AppData\Roaming\npm; D:\adt-bundle-windows-x86_64-20140702\sdk\tools;D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;C:\Jenkins_Test\WebdriveTest\lib;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.MQFT_JRE_BIN_PATH" value="C:\IBM\WebSphere MQ\java\jre\bin" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="java.class.path" value="D:\eclipse_juno\MSBWorkSpace\bin;C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\junit-dep-4.11.jar;C:\apache-ant-1.9.6\lib\ant-launcher.jar;C:\apache-ant-1.9.6\lib\ant.jar;C:\apache-ant-1.9.6\lib\ant-junit.jar;C:\apache-ant-1.9.6\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.msb.login.CustomerAdmin skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\eclipse_juno\MSBWorkSpace\junit\TEST-com.msb.login.CustomerAdmin.xml crashfile=D:\eclipse_juno\MSBWorkSpace\junitvmwatcher7353779867218596525.properties propsfile=D:\eclipse_juno\MSBWorkSpace\junit578900646529359933.properties" />
+    <property name="env.SENCHA_CMD_3_0_0" value="C:\Users\miracle\bin/Sencha/Cmd/5.0.3.324" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.LOGONSERVER" value="\\MSS" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="env.HOME" value="C:\Users" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\apache-ant-1.9.6" />
+    <property name="java.io.tmpdir" value="C:\Users\miracle\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="3a09" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.=D:" value="D:\eclipse_juno\MSBWorkSpace" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\miracle\AppData\Local" />
+    <property name="user.dir" value="D:\eclipse_juno\MSBWorkSpace" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW" />
+    <property name="env.Path" value="C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\WANdisco\Subversion;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-ant-1.9.6\bin;C:\Windows\System32;C:\Program Files (x86)\CloudFoundry;C:\Program Files\nodejs\;C:\Program Files\OpenVPN\bin;C:\Program Files\Git LFS;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.1.0\bin;C:\Ruby21\bin;C:\Ruby193\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\;C:\ant\bin;C:\Program Files (x86)\PuTTY;C:\Users\miracle\AppData\Roaming\npm; D:\adt-bundle-windows-x86_64-20140702\sdk\tools;D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;C:\Jenkins_Test\WebdriveTest\lib" />
+    <property name="env.JRE_HOME" value="C:\Program Files\Java\jre1.8.0_65" />
+    <property name="basedir" value="D:\eclipse_juno\MSBWorkSpace" />
+    <property name="env.VISUALSVN_SERVER" value="C:\Program Files\VisualSVN Server\" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.9.6\lib\ant.jar" />
+    <property name="env.USERNAME" value="miracle" />
+    <property name="source" value="1.7" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="env.USERDOMAIN" value="MSS" />
+    <property name="env.include" value="C:\IBM\SQLLIB\INCLUDE;C:\IBM\SQLLIB\LIB;C:\IBM\WebSphere MQ\tools\c\include;C:\IBM\WebSphere MQ\tools\cplus\include" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="C:\Users\miracle" />
+    <property name="ant.project.invoked-targets" value="build" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="com.msb.login.CustomerAdmin" name="testSiteAdminLogin" time="39.466" />
+  <system-out><![CDATA[Admin customerAdminLogin
+Location--->/C:/Program%20Files/Java/jdk1.8.0_65/jre/lib/ext/junit-dep-4.11.jar
+Location Path--->D:\eclipse_juno\MSBWorkSpace
+Entered writelog
+2016/07/07
+filepath-->D:\eclipse_juno\MSBWorkSpace//report/
+Was file deleted ? : false
+D:\eclipse_juno\MSBWorkSpace//report/MSBReport.txt
+Time---->38
+diffMs==================================>38
+Inside if
+diffSec-->38000Min-->0Sec--->38
+2016/07/07
+Was file deleted ? : false
+D:\eclipse_juno\MSBWorkSpace//report/MSBReport.html
+]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+
+Test Count : 0
+Page : Search Account
+Rule Id : searchAccount
+ Description : 
+Success : Completed searchAccount
+			, Search Account 
+Time : 79
+
+
+Search Account = {Success=1}

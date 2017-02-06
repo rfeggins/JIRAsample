@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="MSB">
+    <property environment="env"/>
+    <!-- <property name="ECLIPSE_HOME" value="../../../../Selenium/eclipse"/> -->
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="MSB.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="/opt/Seliniumjars/ApacheJMeter_core.jar"/>
+        <pathelement location="/opt/Seliniumjars/ApacheJMeter_java.jar"/>
+        <pathelement location="/opt/Seliniumjars/apache-logging-log4j.jar"/>
+        <pathelement location="/opt/Seliniumjars/apache-mime4j-0.6.jar"/>
+        <pathelement location="/opt/Seliniumjars/bsh-1.3.0.jar"/>
+        <pathelement location="/opt/Seliniumjars/cglib-nodep-2.1_3.jar"/>
+        <pathelement location="/opt/Seliniumjars/commons-codec-1.9.jar"/>
+        <pathelement location="/opt/Seliniumjars/commons-collections-3.2.1.jar"/>
+        <pathelement location="/opt/Seliniumjars/commons-exec-1.1.jar"/>
+        <pathelement location="/opt/Seliniumjars/commons-io-2.4.jar"/>
+        <pathelement location="/opt/Seliniumjars/commons-jxpath-1.3.jar"/>
+        <pathelement location="/opt/Seliniumjars/commons-lang3-3.3.2.jar"/>
+        <pathelement location="/opt/Seliniumjars/commons-logging-1.1.3.jar"/>
+        <pathelement location="/opt/Seliniumjars/cssparser-0.9.14.jar"/>
+        <pathelement location="/opt/Seliniumjars/ExcelReportGenerator-4.0.1.jar"/>
+        <pathelement location="/opt/Seliniumjars/extentreports-java-2.40.2.jar"/>
+        <pathelement location="/opt/Seliniumjars/freemarker-2.3.23.jar"/>
+        <pathelement location="/opt/Seliniumjars/gson-2.3.1.jar"/>
+        <pathelement location="/opt/Seliniumjars/guava-18.0.jar"/>
+        <pathelement location="/opt/Seliniumjars/guice-4.0.jar"/>
+        <pathelement location="/opt/Seliniumjars/hamcrest-core-1.3.jar"/>
+        <pathelement location="/opt/Seliniumjars/hamcrest-library-1.3.jar"/>
+        <pathelement location="/opt/Seliniumjars/htmlunit-2.15.jar"/>
+        <pathelement location="/opt/Seliniumjars/htmlunit-core-js-2.15.jar"/>
+        <pathelement location="/opt/Seliniumjars/httpclient-4.3.6.jar"/>
+        <pathelement location="/opt/Seliniumjars/httpcore-4.3.3.jar"/>
+        <pathelement location="/opt/Seliniumjars/httpmime-4.3.6.jar"/>
+        <pathelement location="/opt/Seliniumjars/ini4j-0.5.2.jar"/>
+        <pathelement location="/opt/Seliniumjars/jcommander-1.29.jar"/>
+        <pathelement location="/opt/Seliniumjars/jetty-websocket-8.1.8.jar"/>
+        <pathelement location="/opt/Seliniumjars/jna-3.4.0.jar"/>
+        <pathelement location="/opt/Seliniumjars/jna-platform-3.4.0.jar"/>
+        <pathelement location="/opt/Seliniumjars/jorphan-2.6.jar"/>
+        <pathelement location="/opt/Seliniumjars/jsoup-1.8.3.jar"/>
+        <pathelement location="/opt/Seliniumjars/junit-dep-4.11.jar"/>
+        <pathelement location="/opt/Seliniumjars/jxl.jar"/>
+        <pathelement location="/opt/Seliniumjars/jxl-2.6.jar"/>
+        <pathelement location="/opt/Seliniumjars/log4j-1.2.16.jar"/>
+        <pathelement location="/opt/Seliniumjars/logkit-1.2.2.jar"/>
+        <pathelement location="/opt/Seliniumjars/nekohtml-1.9.21.jar"/>
+        <pathelement location="/opt/Seliniumjars/netty-3.5.7.Final.jar"/>
+        <pathelement location="/opt/Seliniumjars/operadriver-1.5.jar"/>
+        <pathelement location="/opt/Seliniumjars/org.apache.httpclient-sources.jar"/>
+        <pathelement location="/opt/Seliniumjars/org.testng.eclipse_6.8.6.20141201_2240.jar"/>
+        <pathelement location="../..//Selenium/jars/org.testng.feature_5.9.0.4.jar"/>
+        <pathelement location="/opt/Seliniumjars/phantomjsdriver-1.2.1.jar"/>
+        <pathelement location="/opt/Seliniumjars/poi-3.9.jar"/>
+        <pathelement location="/opt/Seliniumjars/poi-3.12-20150511.jar"/>
+        <pathelement location="/opt/Seliniumjars/poi-examples-3.12-20150511.jar"/>
+        <pathelement location="/opt/Seliniumjars/poi-excelant-3.12-20150511.jar"/>
+        <pathelement location="/opt/Seliniumjars/poi-ooxml-3.12-20150511.jar"/>
+        <pathelement location="/opt/Seliniumjars/poi-ooxml-schemas-3.12-20150511.jar"/>
+        <pathelement location="/opt/Seliniumjars/poi-scratchpad-3.12-20150511.jar"/>
+        <pathelement location="/opt/Seliniumjars/protobuf-java-2.4.1.jar"/>
+        <pathelement location="/opt/Seliniumjars/reportng-1.1.4.jar"/>
+        <pathelement location="/opt/Seliniumjars/sac-1.3.jar"/>
+        <pathelement location="/opt/Seliniumjars/selenium-java-2.45.0.jar"/>
+        <pathelement location="/opt/Seliniumjars/selenium-java-2.45.0-srcs.jar"/>
+        <pathelement location="/opt/Seliniumjars/selenium-java-client-driver.jar"/>
+        <pathelement location="/opt/Seliniumjars/selenium-server-standalone-2.44.0.jar"/>
+        <pathelement location="../..//Selenium/jars/selenium-server-standalone-2.45.0.jar"/>
+        <pathelement location="/opt/Seliniumjars/selenium-server-standalone-2.46.0.jar"/>
+        <pathelement location="/opt/Seliniumjars/serialization-java-1.2.0.GA.jar"/>
+        <pathelement location="/opt/Seliniumjars/serializer-2.7.1.jar"/>
+        <pathelement location="/opt/Seliniumjars/sqlite-jdbc-3.8.11.1.jar"/>
+        <pathelement location="/opt/Seliniumjars/testng-6.8.5.jar"/>
+        <pathelement location="/opt/Seliniumjars/velocity-dep-1.4.jar"/>
+        <pathelement location="/opt/Seliniumjars/xalan-2.7.1.jar"/>
+        <pathelement location="/opt/Seliniumjars/xercesImpl-2.11.0.jar"/>
+        <pathelement location="/opt/Seliniumjars/xml-apis-1.4.01.jar"/>
+		
+		<pathelement location="/opt/Seliniumjars/javax.activation.jar"/>
+        <pathelement location="/opt/Seliniumjars/javax.mail-1.3.3.01.jar"/>
+		
+		<pathelement location="/opt/Seliniumjars/javamail-mailapi-1.4.jar"/>
+
+		
+		
+		
+		
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="sampletest" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="MSB.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+   <!-- <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target> -->
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="SeleniumRun" depends="sampletest">
+        <java classname="com.msb.util.SeleniumRun" failonerror="true" fork="yes">
+            <classpath refid="MSB.classpath"/>
+        </java>
+    </target>
+    <target name="MSB">
+        <mkdir dir="${junitMSB.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.msb.account.AccountSearch" todir="${junit.output.dir}"/>
+            <test name="com.msb.account.AddAccount" todir="${junit.output.dir}"/>
+            <test name="com.msb.account.AssignAccount" todir="${junit.output.dir}"/>
+            <test name="com.msb.account.AttachmentDetails" todir="${junit.output.dir}"/>
+            <test name="com.msb.account.CSRSearch" todir="${junit.output.dir}"/>
+            <test name="com.msb.account.ContactDetails" todir="${junit.output.dir}"/>
+            <test name="com.msb.account.EditAccount" todir="${junit.output.dir}"/>
+            <test name="com.msb.account.LocationDetails" todir="${junit.output.dir}"/>
+            <test name="com.msb.account.LoggerSearch" todir="${junit.output.dir}"/>
+            <test name="com.msb.admin.dashboard.DashboardCostCenter" todir="${junit.output.dir}"/>
+            <test name="com.msb.admin.dashboard.DashboardProject" todir="${junit.output.dir}"/>
+            <test name="com.msb.admin.dashboard.DashboardRequirement" todir="${junit.output.dir}"/>
+            <test name="com.msb.dashboard.RequirementDashboard" todir="${junit.output.dir}"/>
+            <test name="com.msb.home.EditProfile" todir="${junit.output.dir}"/>
+            <test name="com.msb.home.TaskDetails" todir="${junit.output.dir}"/>
+            <test name="com.msb.home.Timesheet" todir="${junit.output.dir}"/>
+            <test name="com.msb.login.AdminLogin" todir="${junit.output.dir}"/>
+            <test name="com.msb.login.CSR" todir="${junit.output.dir}"/>
+            <test name="com.msb.login.CustomerAdmin" todir="${junit.output.dir}"/>
+            <test name="com.msb.login.CustomerEmployee" todir="${junit.output.dir}"/>
+            <test name="com.msb.login.CustomerTeamLead" todir="${junit.output.dir}"/>
+            <test name="com.msb.login.Director" todir="${junit.output.dir}"/>
+            <test name="com.msb.login.Manager" todir="${junit.output.dir}"/>
+            <test name="com.msb.login.ProjectManager" todir="${junit.output.dir}"/>
+            <test name="com.msb.login.VendorAdmin" todir="${junit.output.dir}"/>
+            <test name="com.msb.login.VendorEmployee" todir="${junit.output.dir}"/>
+            <test name="com.msb.login.VendorTeamLead" todir="${junit.output.dir}"/>
+            <test name="com.msb.util.Login1" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.AccountUpload" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.ActionAuthorization" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.AddConsultant" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.AddRequirement" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.Budget" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.ChangeMyPassword" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.ContactUpload" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.Contract" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.CostCenter" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.CsrSearchTest" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.DownloadFile" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.EditConsultant" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.EditRequirement" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.EmployeeGrouping" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.HomeRedirect" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.Invoice" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.ProjectDetails" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.Question" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.ResetUserPassword" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.SearchRequirement" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.TechReview" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.UploadQuestion" todir="${junit.output.dir}"/>
+            <test name="com.msb.utilities.VendorRequirement" todir="${junit.output.dir}"/>
+            <classpath refid="MSB.classpath"/>
+        </junit>
+    </target>
+	
+	 <target name="sampletest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+			<test name="com.msb.account.AccountSearch" todir="${junit.output.dir}"/>
+              <classpath refid="MSB.classpath"/>
+        </junit>
+    </target>
+	
+    <target name="AccountSearch">
+        <mkdir dir="${junitAccountSearch.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.msb.account.AccountSearch" todir="${junit.output.dir}"/>
+            <classpath refid="MSB.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+	
+	
+	<target description="Generates and send junit test reports" name="emailtestmss">
+      <mail mailhost="smtp.miraclesoft.com" mailport="587" password="Sai@9641" enableStartTLS="true" subject="mail_send" user="kimandi@miraclesoft.com">
+  <from address="kimandi@miraclesoft.com"></from>
+
+<to address="kimandi@miraclesoft.com"></to>
+<message>Build got success</message>
+<!--<attachments>
+<fileset dir="C:\Users\miracle\Desktop\JAR_APP">
+<include name="MSBWorkSpace"></include>
+</fileset>
+</attachments>-->
+</mail>
+  </target>
+  
+  
+  
+  
+  
+  
+  
+  <target description="Generates and send junit test reports" name="qaemailtestmssfaile">
+      <mail mailhost="smtp.miraclesoft.com" mailport="587" password="Sai@9641" enableStartTLS="true" subject="mail_send" user="kimandi@miraclesoft.com">
+  <from address="kimandi@miraclesoft.com"></from>
+
+<to address="kimandi@miraclesoft.com"></to>
+<message>Build got failure</message>
+<!--<attachments>
+<fileset dir="C:\Users\miracle\Desktop\JAR_APP">
+<include name="MSBWorkSpace"></include>
+</fileset>
+</attachments>-->
+</mail>
+  </target>
+	
+
+<target description="Generates and send junit test reports" name="qaemailtestmss">
+      <mail mailhost="smtp.miraclesoft.com" mailport="587" password="Sai@9641" enableStartTLS="true" subject="mail_send" user="kimandi@miraclesoft.com">
+  <from address="kimandi@miraclesoft.com"></from>
+
+<to address="kimandi@miraclesoft.com"></to>
+<message>Build got success, sending the application for deploying in Production environment</message>
+<!--<attachments>
+<fileset dir="C:\Users\miracle\Desktop\JAR_APP">
+<include name="MSBWorkSpace"></include>
+</fileset>
+</attachments>-->
+</mail>
+  </target>
+
+	
+	
+	
+	
+</project>

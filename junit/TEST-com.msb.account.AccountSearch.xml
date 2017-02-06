@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="Guest644" name="com.msb.account.AccountSearch" skipped="0" tests="1" time="0.0" timestamp="2017-02-06T04:36:50">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="GUEST644" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="742f5794c29e5331" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes" />
+    <property name="env.COMPUTERNAME" value="GUEST644" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\apache-ant-1.9.7" />
+    <property name="java.runtime.version" value="1.8.0_101-b13" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#4" />
+    <property name="ant.file.MSB" value="D:\MIL\.jenkins\workspace\gitjirasample\build.xml" />
+    <property name="env.HOMEPATH" value="\Users\miracle" />
+    <property name="user.name" value="miracle" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="MSB" />
+    <property name="java.version" value="1.8.0_101" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="env.TEMP" value="C:\Users\miracle\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.JOB_BASE_NAME" value="samo_DEMO" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="env.BUILD_NUMBER" value="4" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\opscode\chefdk\modules\" />
+    <property name="env.APPDATA" value="C:\Users\miracle\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="D:\MIL\.jenkins\workspace\gitjirasample\build.xml" />
+    <property name="os.version" value="6.3" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.HUDSON_COOKIE" value="805c4224-375c-4fa3-bc92-03b12cf81ff8" />
+    <property name="env.CYGWIN" value="mintty" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.101-b13" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\miracle" />
+    <property name="ant.file.type.MSB" value="file" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.9.7\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JOB_NAME" value="samo_DEMO" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\miracle\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="env.HUDSON_URL" value="http://localhost:8080/" />
+    <property name="env.DOCKER_TOOLBOX_INSTALL_PATH" value="C:\Program Files\Docker Toolbox" />
+    <property name="env.BUILD_TAG" value="jenkins-samo_DEMO-4" />
+    <property name="user.home" value="C:\Users\miracle" />
+    <property name="target" value="1.7" />
+    <property name="env.JENKINS_HOME" value="C:\Users\miracle\.jenkins" />
+    <property name="env.JOB_URL" value="http://localhost:8080/job/samo_DEMO/" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;/bin;/bin;C:\Users\miracle\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\apache-ant-1.9.7\bin;C:\Program Files\Docker Toolbox;C:\Users\miracle\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Java\jdk1.8.0_101\bin;C:\opscode\chefdk\bin\;C:\Program Files\OpenSSH\bin;C:\cygwin64\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\nodejs;C:\Program Files\Cloud Foundry;C:\Users\miracle\AppData\Roaming\Cloud Foundry;C:\Program Files\Git\cmd;Toolbox;C:\Users\miracle\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\nodejs;C:\Program Files\Git\bin\git.exe;Toolbox;C:\Users\miracle\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\nodejs;C:\Program Files\Git\bin\git.exe;C:\Program Files\Git\cmd;C:\apache-ant-1.9.7\bin;C:\Program Files\Docker Toolbox;C:\Users\miracle\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\nodejs;C:\Program Files\Git\bin\git.exe;C:\Program Files\Git\cmd;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="env.HUDSON_HOME" value="C:\Users\miracle\.jenkins" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="742f5794c29e5331" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="java.class.path" value="D:\MIL\.jenkins\workspace\gitjirasample\bin;C:\apache-ant-1.9.7\lib\junit-4.12.jar;C:\apache-ant-1.9.7\lib\ant-launcher.jar;C:\apache-ant-1.9.7\lib\ant.jar;C:\apache-ant-1.9.7\lib\ant-junit.jar;C:\apache-ant-1.9.7\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.msb.account.AccountSearch skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\MIL\.jenkins\workspace\gitjirasample\junit\TEST-com.msb.account.AccountSearch.xml crashfile=D:\MIL\.jenkins\workspace\gitjirasample\junitvmwatcher5699929954595803679.properties propsfile=D:\MIL\.jenkins\workspace\gitjirasample\junit237980432655002465.properties" />
+    <property name="env.EXECUTOR_NUMBER" value="1" />
+    <property name="env.CUSTOM_KEYSTORE" value="C:\Users\miracle\.jenkins\.ssl\" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.LOGONSERVER" value="\\GUEST644" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\apache-ant-1.9.7" />
+    <property name="env.BUILD_URL" value="http://localhost:8080/job/samo_DEMO/4/" />
+    <property name="env.PROCESSOR_REVISION" value="4501" />
+    <property name="java.io.tmpdir" value="C:\Users\miracle\AppData\Local\Temp\" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" sampletest" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="env.=D:" value="D:\MIL\.jenkins\workspace\gitjirasample" />
+    <property name="env.BUILD_ID" value="4" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\miracle\AppData\Local" />
+    <property name="env.MAVEN_HOME" value="C:\Users\miracle\apache-maven-3.3.9-bin\apache-maven-3.3.9" />
+    <property name="user.dir" value="D:\MIL\.jenkins\workspace\gitjirasample" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.JENKINS_URL" value="http://localhost:8080/" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.JRE_HOME" value="C:\Program Files\Java\jre1.8.0_101" />
+    <property name="env.Path" value="/bin;/bin;C:\Users\miracle\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\apache-ant-1.9.7\bin;C:\Program Files\Docker Toolbox;C:\Users\miracle\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Java\jdk1.8.0_101\bin;C:\opscode\chefdk\bin\;C:\Program Files\OpenSSH\bin;C:\cygwin64\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\nodejs;C:\Program Files\Cloud Foundry;C:\Users\miracle\AppData\Roaming\Cloud Foundry;C:\Program Files\Git\cmd;Toolbox;C:\Users\miracle\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\nodejs;C:\Program Files\Git\bin\git.exe;Toolbox;C:\Users\miracle\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\nodejs;C:\Program Files\Git\bin\git.exe;C:\Program Files\Git\cmd;C:\apache-ant-1.9.7\bin;C:\Program Files\Docker Toolbox;C:\Users\miracle\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\nodejs;C:\Program Files\Git\bin\git.exe;C:\Program Files\Git\cmd" />
+    <property name="basedir" value="D:\MIL\.jenkins\workspace\gitjirasample" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.9.7\lib\ant.jar" />
+    <property name="env.USERNAME" value="miracle" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="source" value="1.7" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.WORKSPACE" value="D:\MIL\.jenkins\workspace\gitjirasample" />
+    <property name="env.USERDOMAIN" value="GUEST644" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="C:\Users\Jenkins" />
+    <property name="ant.project.invoked-targets" value="sampletest" />
+    <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.NODE_LABELS" value="master" />
+  </properties>
+  <error message="org/openqa/selenium/NoSuchElementException" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/NoSuchElementException
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.NoSuchElementException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

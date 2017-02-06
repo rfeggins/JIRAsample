@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="MSB">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../../Selenium/eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="MSB.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="../../../../Selenium/jars/ApacheJMeter_core.jar"/>
+        <pathelement location="../../../../Selenium/jars/ApacheJMeter_java.jar"/>
+        <pathelement location="../../../../Selenium/jars/apache-logging-log4j.jar"/>
+        <pathelement location="../../../../Selenium/jars/apache-mime4j-0.6.jar"/>
+        <pathelement location="../../../../Selenium/jars/bsh-1.3.0.jar"/>
+        <pathelement location="../../../../Selenium/jars/cglib-nodep-2.1_3.jar"/>
+        <pathelement location="../../../../Selenium/jars/commons-codec-1.9.jar"/>
+        <pathelement location="../../../../Selenium/jars/commons-collections-3.2.1.jar"/>
+        <pathelement location="../../../../Selenium/jars/commons-exec-1.1.jar"/>
+        <pathelement location="../../../../Selenium/jars/commons-io-2.4.jar"/>
+        <pathelement location="../../../../Selenium/jars/commons-jxpath-1.3.jar"/>
+        <pathelement location="../../../../Selenium/jars/commons-lang3-3.3.2.jar"/>
+        <pathelement location="../../../../Selenium/jars/commons-logging-1.1.3.jar"/>
+        <pathelement location="../../../../Selenium/jars/cssparser-0.9.14.jar"/>
+        <pathelement location="../../../../Selenium/jars/ExcelReportGenerator-4.0.1.jar"/>
+        <pathelement location="../../../../Selenium/jars/extentreports-java-2.40.2.jar"/>
+        <pathelement location="../../../../Selenium/jars/freemarker-2.3.23.jar"/>
+        <pathelement location="../../../../Selenium/jars/gson-2.3.1.jar"/>
+        <pathelement location="../../../../Selenium/jars/guava-18.0.jar"/>
+        <pathelement location="../../../../Selenium/jars/guice-4.0.jar"/>
+        <pathelement location="../../../../Selenium/jars/hamcrest-core-1.3.jar"/>
+        <pathelement location="../../../../Selenium/jars/hamcrest-library-1.3.jar"/>
+        <pathelement location="../../../../Selenium/jars/htmlunit-2.15.jar"/>
+        <pathelement location="../../../../Selenium/jars/htmlunit-core-js-2.15.jar"/>
+        <pathelement location="../../../../Selenium/jars/httpclient-4.3.6.jar"/>
+        <pathelement location="../../../../Selenium/jars/httpcore-4.3.3.jar"/>
+        <pathelement location="../../../../Selenium/jars/httpmime-4.3.6.jar"/>
+        <pathelement location="../../../../Selenium/jars/ini4j-0.5.2.jar"/>
+        <pathelement location="../../../../Selenium/jars/jcommander-1.29.jar"/>
+        <pathelement location="../../../../Selenium/jars/jetty-websocket-8.1.8.jar"/>
+        <pathelement location="../../../../Selenium/jars/jna-3.4.0.jar"/>
+        <pathelement location="../../../../Selenium/jars/jna-platform-3.4.0.jar"/>
+        <pathelement location="../../../../Selenium/jars/jorphan-2.6.jar"/>
+        <pathelement location="../../../../Selenium/jars/jsoup-1.8.3.jar"/>
+        <pathelement location="../../../../Selenium/jars/junit-dep-4.11.jar"/>
+        <pathelement location="../../../../Selenium/jars/jxl.jar"/>
+        <pathelement location="../../../../Selenium/jars/jxl-2.6.jar"/>
+        <pathelement location="../../../../Selenium/jars/log4j-1.2.16.jar"/>
+        <pathelement location="../../../../Selenium/jars/logkit-1.2.2.jar"/>
+        <pathelement location="../../../../Selenium/jars/nekohtml-1.9.21.jar"/>
+        <pathelement location="../../../../Selenium/jars/netty-3.5.7.Final.jar"/>
+        <pathelement location="../../../../Selenium/jars/operadriver-1.5.jar"/>
+        <pathelement location="../../../../Selenium/jars/org.apache.httpclient-sources.jar"/>
+        <pathelement location="../../../../Selenium/jars/org.testng.eclipse_6.8.6.20141201_2240.jar"/>
+        <pathelement location="../../../../Selenium/jars/org.testng.feature_5.9.0.4.jar"/>
+        <pathelement location="../../../../Selenium/jars/phantomjsdriver-1.2.1.jar"/>
+        <pathelement location="../../../../Selenium/jars/poi-3.9.jar"/>
+        <pathelement location="../../../../Selenium/jars/poi-3.12-20150511.jar"/>
+        <pathelement location="../../../../Selenium/jars/poi-examples-3.12-20150511.jar"/>
+        <pathelement location="../../../../Selenium/jars/poi-excelant-3.12-20150511.jar"/>
+        <pathelement location="../../../../Selenium/jars/poi-ooxml-3.12-20150511.jar"/>
+        <pathelement location="../../../../Selenium/jars/poi-ooxml-schemas-3.12-20150511.jar"/>
+        <pathelement location="../../../../Selenium/jars/poi-scratchpad-3.12-20150511.jar"/>
+        <pathelement location="../../../../Selenium/jars/protobuf-java-2.4.1.jar"/>
+        <pathelement location="../../../../Selenium/jars/reportng-1.1.4.jar"/>
+        <pathelement location="../../../../Selenium/jars/sac-1.3.jar"/>
+        <pathelement location="../../../../Selenium/jars/selenium-java-2.45.0.jar"/>
+        <pathelement location="../../../../Selenium/jars/selenium-java-2.45.0-srcs.jar"/>
+        <pathelement location="../../../../Selenium/jars/selenium-java-client-driver.jar"/>
+        <pathelement location="../../../../Selenium/jars/selenium-server-standalone-2.44.0.jar"/>
+        <pathelement location="../../../../Selenium/jars/selenium-server-standalone-2.45.0.jar"/>
+        <pathelement location="../../../../Selenium/jars/selenium-server-standalone-2.46.0.jar"/>
+        <pathelement location="../../../../Selenium/jars/serialization-java-1.2.0.GA.jar"/>
+        <pathelement location="../../../../Selenium/jars/serializer-2.7.1.jar"/>
+        <pathelement location="../../../../Selenium/jars/sqlite-jdbc-3.8.11.1.jar"/>
+        <pathelement location="../../../../Selenium/jars/testng-6.8.5.jar"/>
+        <pathelement location="../../../../Selenium/jars/velocity-dep-1.4.jar"/>
+        <pathelement location="../../../../Selenium/jars/xalan-2.7.1.jar"/>
+        <pathelement location="../../../../Selenium/jars/xercesImpl-2.11.0.jar"/>
+        <pathelement location="../../../../Selenium/jars/xml-apis-1.4.01.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-project,build-refprojects,init-eclipse-compiler,SeleniumRun" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="MSB.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="SeleniumRun">
+        <java classname="com.msb.util.SeleniumRun" failonerror="true" fork="yes">
+            <classpath refid="MSB.classpath"/>
+        </java>
+    </target>
+</project>

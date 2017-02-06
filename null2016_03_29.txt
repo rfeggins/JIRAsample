@@ -1,0 +1,11 @@
+
+Test Count  : 0
+Page        : EVT100
+Rule Id     : checkActiveinEvent_cptk12
+Description : null
+Success     : Completed checkActiveinEvent_cptk12
+			 testAdminLogin 
+Time        : 19
+
+
+EVT100 = {Success=1}
