@@ -82,16 +82,16 @@
         <pathelement location="/opt/Seliniumjars/xalan-2.7.1.jar"/>
         <pathelement location="/opt/Seliniumjars/xercesImpl-2.11.0.jar"/>
         <pathelement location="/opt/Seliniumjars/xml-apis-1.4.01.jar"/>
-		
+
 		<pathelement location="/opt/Seliniumjars/javax.activation.jar"/>
         <pathelement location="/opt/Seliniumjars/javax.mail-1.3.3.01.jar"/>
-		
+
 		<pathelement location="/opt/Seliniumjars/javamail-mailapi-1.4.jar"/>
 
-		
-		
-		
-		
+
+
+
+
     </path>
     <target name="init">
         <mkdir dir="bin"/>
@@ -135,6 +135,7 @@
     </target>
     <target name="MSB">
         <mkdir dir="${junitMSB.output.dir}"/>
+        <classpath location="lib/junit-4.10.jar" />
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <test name="com.msb.account.AccountSearch" todir="${junit.output.dir}"/>
@@ -191,7 +192,7 @@
             <classpath refid="MSB.classpath"/>
         </junit>
     </target>
-	
+
 	 <target name="sampletest">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
@@ -200,7 +201,7 @@
               <classpath refid="MSB.classpath"/>
         </junit>
     </target>
-	
+
     <target name="AccountSearch">
         <mkdir dir="${junitAccountSearch.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
@@ -217,8 +218,8 @@
             <report format="frames" todir="${junit.output.dir}"/>
         </junitreport>
     </target>
-	
-	
+
+
 	<target description="Generates and send junit test reports" name="emailtestmss">
       <mail mailhost="smtp.miraclesoft.com" mailport="587" password="Sai@9641" enableStartTLS="true" subject="mail_send" user="kimandi@miraclesoft.com">
   <from address="kimandi@miraclesoft.com"></from>
@@ -232,13 +233,13 @@
 </attachments>-->
 </mail>
   </target>
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
   <target description="Generates and send junit test reports" name="qaemailtestmssfaile">
       <mail mailhost="smtp.miraclesoft.com" mailport="587" password="Sai@9641" enableStartTLS="true" subject="mail_send" user="kimandi@miraclesoft.com">
   <from address="kimandi@miraclesoft.com"></from>
@@ -252,7 +253,7 @@
 </attachments>-->
 </mail>
   </target>
-	
+
 
 <target description="Generates and send junit test reports" name="qaemailtestmss">
       <mail mailhost="smtp.miraclesoft.com" mailport="587" password="Sai@9641" enableStartTLS="true" subject="mail_send" user="kimandi@miraclesoft.com">
@@ -268,8 +269,8 @@
 </mail>
   </target>
 
-	
-	
-	
-	
+
+
+
+
 </project>
